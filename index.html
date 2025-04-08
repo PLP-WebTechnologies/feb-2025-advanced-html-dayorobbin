@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Welcome to the media page</title>
+    </head>
+    <body>
+        <!--Embedded Media-->
+        <h1>Welcome to my media page</h1>
+        <h2>Audio elements</h2>
+        <audio controls>
+            <source src="https://files.ceenaija.com/wp-content/uploads/music/2024/04/Pastor_Emmanuel_Iren_-_Agalliao_CeeNaija.com_.mp3" type="audio/mpeg">
+            Your browser does not suport this element
+        </audio>
+        <h2>video elements</h2>
+        <video width="200", height="200", controls>
+            <source src="https://www.youtube.com/watch?v=xWwJrZwEXxY" type="video/mp4">
+            This browser does not support this element
+            
+        </video>
+        <h2>image elements</h2>
+        <img src="https://cdn.freepixel.com/thumb/free-photos-a-small-red-pill-bottle-with-several-pink-pills-spilling-out-of-it-creating-a-pile-of-tablets-on-a-b-th-1004046579.jpg" alt="pills">
+        
+        <!--Table-->
+        <h2>Data table</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>email</th>
+                <th>phone number</th>
+            </tr>
+            <tr>
+                <th>oluwakayode</th>
+                <th>89 lagos road</th>
+                <th>oluwakayode@gmail.com</th>
+                <th>08418373737373</th>
+            </tr>
+            <tr>
+                <th>bayo</th>
+                <th>89 kenyan road</th>
+                <th>bayo@gmail.com</th>
+                <th>084153737373</th>
+            </tr>
+        </table>
+        <h2>Registration Form</h2>
+        <form id="Registration Form">
+
+            <!--Name field-->
+            <label for="Name"></label>
+            <input type="text" id="Name" name="name" required>
+            
+           <!--Email field-->
+            <label for="email"></label>
+            <input type="email" id="email" name="email" required>
+
+            <!--Password Field-->
+            <label for="password"></label>
+            <input type="password" id="password" name="password" required>
+            <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <!-- Dropdown Menu -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="" disabled selected>Select your country</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="australia">Australia</option>
+        </select>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>Gender:</legend>
+            <label>
+                <input type="radio" name="gender" value="male" required> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other"> Other
+            </label>
+        </fieldset>
+
+        <!-- Checkboxes -->
+        <fieldset>
+            <legend>Select Interests:</legend>
+            <label>
+                <input type="checkbox" name="interests" value="music"> Music
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="sports"> Sports
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="travel"> Travel
+            </label>
+        </fieldset>
+
+            <button type="submit">Register</button>
+        </form>
+        <!--Ordered list-->
+        <h2>Ordered list</h2>
+        <ol type="I">
+            <li>oluwakayode</li>
+            <li>bayo</li>
+            <li>akintayo</li>
+            <li>babatunde</li>
+        </ol>
+
+    </body>
+</html>
